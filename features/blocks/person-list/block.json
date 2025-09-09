@@ -1,0 +1,32 @@
+{
+  "apiVersion": 2,
+  "icon": "admin-users",
+  "title": "Person list",
+  "description": "Show a list of persons...",
+  "name": "acf/person-list",
+  "textdomain": "helsinki-sovittelutoiminta-core",
+  "category": "helsinki-sovittelutoiminta-core",
+  "supports": {
+    "align": [ "left", "right", "center" ]
+  },
+  "attributes": {
+    "data": {
+      "type": "object",
+      "default": {}
+    },
+    "layout": {
+      "type": "string",
+      "default": "vertical"
+    },
+    "align": {
+      "type": "string",
+      "default": "left"
+    },
+    "persons": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:block.js",
+  "editorStyle": "file:editor.css"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "helsinki-sovittelutoiminta-core",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-polyfill": "^6.26.0",
+    "fs": "*",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "merge-stream": "^2.0.0",
+    "path": "^0.12.7",
+    "sass": "^1.77.7"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "gulp-inline-svg": "^1.2.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

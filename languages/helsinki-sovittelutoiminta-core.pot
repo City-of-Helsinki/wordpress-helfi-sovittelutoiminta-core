@@ -1,0 +1,303 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Helsinki Sovittelutoiminta Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-16 12:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.9; wp-6.5.3\n"
+"X-Domain: helsinki-sovittelutoiminta-core"
+
+#: features/blocks/person-list/block.js:99
+msgid "Add"
+msgstr ""
+
+#: features/term-mapping/term-meta.php:66
+msgid "Archive Mapping"
+msgstr ""
+
+#. Author of the plugin
+msgid "ArtCloud"
+msgstr ""
+
+#: features/blocks/content-list/block.js:54
+msgid "Ascending"
+msgstr ""
+
+#: features/blocks/assets.php:47
+msgid "Black"
+msgstr ""
+
+#: features/blocks/assets.php:52
+msgid "Coat of Arms Blue"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:38
+msgid "Colors"
+msgstr ""
+
+#: features/blocks/content-list/block.js:157
+msgid "Content list"
+msgstr ""
+
+#: features/blocks/assets.php:57
+msgid "Copper"
+msgstr ""
+
+#: features/blocks/assets.php:62
+msgid "Copper Light"
+msgstr ""
+
+#: features/blocks/content-list/block.js:46
+msgid "Date"
+msgstr ""
+
+#: features/term-mapping/term-meta.php:80
+msgid "Default"
+msgstr ""
+
+#: features/blocks/content-list/block.js:53
+msgid "Descending"
+msgstr ""
+
+#: features/post-types/person/metabox.php:77
+msgid "Description"
+msgstr ""
+
+#: features/post-types/person/metabox.php:14
+msgid "Details"
+msgstr ""
+
+#: features/quiet-posts/post-meta.php:26
+msgid "Display settings"
+msgstr ""
+
+#: features/post-types/person/metabox.php:60
+msgid "Email"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:126
+msgid "Enter body text"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:119
+msgid "Enter heading"
+msgstr ""
+
+#: features/blocks/content-list/block.js:131
+msgid "Exclude quiet posts"
+msgstr ""
+
+#: features/blocks/content-list/block.js:37
+msgid "Filter by category"
+msgstr ""
+
+#: features/blocks/assets.php:67
+msgid "Fog"
+msgstr ""
+
+#: features/blocks/assets.php:72
+msgid "Fog Light"
+msgstr ""
+
+#: features/blocks/assets.php:77
+msgid "Gold"
+msgstr ""
+
+#. Name of the plugin
+msgid "Helsinki Sovittelutoiminta Core"
+msgstr ""
+
+#: features/blocks/highlight/block.js:42
+msgid "Highlight"
+msgstr ""
+
+#: features/blocks/person-list/block.js:137
+msgid "Horizontal"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.artcloud.fi"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:56
+msgid "Icon"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:141
+msgid "Icon & Text"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:44
+msgid "Icon color"
+msgstr ""
+
+#: features/blocks/person-list/block.js:169
+msgid "Layout"
+msgstr ""
+
+#: features/blocks/highlight/block.js:29
+msgid "Legacy Highlight block is not supported anymore."
+msgstr ""
+
+#: features/blocks/assets.php:37
+msgid "Light Grey"
+msgstr ""
+
+#: features/blocks/content-list/block.js:29
+#: features/blocks/person-list/block.js:39
+msgid "Loading..."
+msgstr ""
+
+#: features/quiet-posts/post-meta.php:45
+msgid "Make this post quiet"
+msgstr ""
+
+#: features/term-mapping/term-meta.php:68
+msgid "Map a term archive to a page."
+msgstr ""
+
+#: features/blocks/assets.php:42
+msgid "Medium gray"
+msgstr ""
+
+#: features/blocks/content-list/render.php:97
+msgid "Next page"
+msgstr ""
+
+#: features/term-mapping/term-meta.php:87
+msgid "No page options available."
+msgstr ""
+
+#: integrations/searchwp-live-ajax-search/templates/search-results.php:32
+msgid "No results found."
+msgstr ""
+
+#: features/blocks/content-list/render.php:74
+#: features/blocks/person-list/render.php:65
+msgid "No results found..."
+msgstr ""
+
+#: features/blocks/highlight/block.js:28
+msgid "Note!"
+msgstr ""
+
+#: features/blocks/content-list/block.js:95
+msgid "Number of articles"
+msgstr ""
+
+#: features/blocks/content-list/block.js:114
+msgid "Order"
+msgstr ""
+
+#: features/blocks/content-list/block.js:105
+msgid "Order by"
+msgstr ""
+
+#: features/post-types/person/post-type.php:20
+msgid "People"
+msgstr ""
+
+#: features/blocks/person-list/block.js:87
+msgid "Person"
+msgstr ""
+
+#: features/blocks/person-list/block.js:202
+msgid "Person list"
+msgstr ""
+
+#: features/post-types/person/post-type.php:21
+msgid "Persons"
+msgstr ""
+
+#: features/blocks/highlight/block.js:30
+msgid "Please transform this block to Helsinki - Banneri block."
+msgstr ""
+
+#: features/blocks/content-list/block.js:132
+msgid "Posts marked as \"quiet\" will not be published to this content list"
+msgstr ""
+
+#: features/blocks/content-list/render.php:102
+msgid "Previous page"
+msgstr ""
+
+#: features/blocks/assets.php:22
+msgid "Primary"
+msgstr ""
+
+#: features/quiet-posts/post-state.php:13
+msgid "Quiet post"
+msgstr ""
+
+#: features/quiet-posts/post-meta.php:46
+msgid ""
+"Quiet posts will not be published to the front page and can be excluded from "
+"other content lists"
+msgstr ""
+
+#: features/term-mapping/term-list-columns.php:18
+msgid "Redirection"
+msgstr ""
+
+#: features/blocks/person-list/block.js:128
+msgid "Remove"
+msgstr ""
+
+#: features/blocks/assets.php:27
+msgid "Secondary"
+msgstr ""
+
+#: features/blocks/person-list/block.js:71
+msgid "Select"
+msgstr ""
+
+#: features/blocks/content-list/block.js:24
+msgid "Select category"
+msgstr ""
+
+#: features/blocks/content-list/block.js:61
+#: features/blocks/person-list/block.js:145
+msgid "Settings"
+msgstr ""
+
+#. Description of the plugin
+msgid "Site specific features"
+msgstr ""
+
+#: config/block-categories.php:10
+msgid "Sovittelutoiminta Helsinki"
+msgstr ""
+
+#: features/blocks/icon-and-text/block.js:49
+msgid "Text color"
+msgstr ""
+
+#: features/blocks/content-list/block.js:47
+#: features/blocks/content-list/block.js:85
+msgid "Title"
+msgstr ""
+
+#: features/blocks/highlight/block.js:36
+msgid "Transform"
+msgstr ""
+
+#: features/blocks/content-list/block.js:123
+msgid "Use pagination"
+msgstr ""
+
+#: features/blocks/person-list/block.js:138
+msgid "Vertical"
+msgstr ""
+
+#: features/blocks/assets.php:32
+msgid "White"
+msgstr ""
