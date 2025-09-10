@@ -72,12 +72,14 @@ function render_person_phone_input( int $post_id ): void {
 			</th>
 			<td>
 				<input id="%1$s-input" type="text" name="%4$s[%1$s]" value="%3$s">
+				<p class="description">%5$s</p>
 			</td>
 		</tr>',
 		person_phone_meta_key(),
 		__( 'Phone', 'helsinki-sovittelutoiminta-core' ),
 		esc_attr( person_phone( $post_id ) ),
-		cpt_person_name()
+		cpt_person_name(),
+		__( 'With area code, e.g. +358451234567', 'helsinki-sovittelutoiminta-core' )
 	);
 }
 
@@ -88,7 +90,7 @@ function render_person_description_input( int $post_id ): void {
 				<label for="%1$s-input">%2$s</label>
 			</th>
 			<td>
-				<textarea id="%1$s-input" name="%4$s[%1$s]" rows="8">%3$s</textarea>
+				<textarea id="%1$s-input" name="%4$s[%1$s]" rows="3">%3$s</textarea>
 			</td>
 		</tr>',
 		person_description_meta_key(),
