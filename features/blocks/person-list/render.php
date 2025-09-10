@@ -62,7 +62,6 @@ function person_entry( WP_Post $post, string $layout ): void {
 	$thumbnail = get_the_post_thumbnail( $post, 'post-thumbnail', [
 		'sizes' => '(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 216px'
 	]);
-	$placeholder_url = apply_filters( 'helsinki_sovittelutoiminta_core_images_url', '' ) . 'person-placeholder.png';
 
 	$entry_classes = [
 		'teaser',
@@ -72,6 +71,7 @@ function person_entry( WP_Post $post, string $layout ): void {
 	];
 
 	$email = apply_filters( 'helsinki_sovittelutoiminta_core_person_email', '', $id );
+	$phone = apply_filters( 'helsinki_sovittelutoiminta_core_person_phone', '', $id );
 	$description = apply_filters( 'helsinki_sovittelutoiminta_core_person_description', '', $id );
 
 	include plugin_dir_path( __FILE__ ) . 'templates/person-entry.php';

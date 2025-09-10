@@ -9,24 +9,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="<?php echo esc_attr( implode( ' ', $entry_classes ) ); ?>">
-	<figure class="person-teaser__image wp-block-image is-style-outline">
-		<?php
-			if ( $thumbnail ) {
-				echo $thumbnail;
-			} else {
-				printf(
-					'<img src="%s" alt="%s">',
-					esc_url( $placeholder_url ),
-					esc_attr( $title )
-				);
-			}
-		?>
-	</figure>
+	<?php if ( $thumbnail ) : ?>
+		<figure class="person-teaser__image wp-block-image is-style-outline">
+			<?php echo $thumbnail; ?>
+		</figure>
+	<?php endif; ?>
 
 	<ul class="person-teaser__details">
 	    <li>
-			<h3 class="person-teaser__name"><?php echo esc_html( $title ); ?></h3>
+			<h3 class="person-teaser__name">
+				<?php echo esc_html( $title ); ?>
+			</h3>
 		</li>
+		<?php if ( $phone ) : ?>
+			<li class="person-teaser__phone">
+				<a href="tel:<?php echo esc_attr( $phone ); ?>">
+					<?php echo esc_html( $phone ); ?>
+				</a>
+			</li>
+		<?php endif; ?>
 		<?php if ( $email ) : ?>
 			<li class="person-teaser__email">
 				<a href="mailto:<?php echo esc_attr( $email ); ?>">

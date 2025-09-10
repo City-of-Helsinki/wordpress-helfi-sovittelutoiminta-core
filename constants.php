@@ -78,10 +78,6 @@ function assets_url() : string {
 	return PLUGIN_URL . 'assets/';
 }
 
-function images_url() : string {
-	return assets_url() . 'images/';
-}
-
 function script_url() : string {
 	return assets_url() . 'js/';
 }
