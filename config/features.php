@@ -6,7 +6,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 return array(
 	'blocks' => array(
-		'assets',
 		'init',
 	),
 	'post-types' => array(
