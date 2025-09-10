@@ -16,9 +16,6 @@ function init() : void {
 	add_action( 'init', __NAMESPACE__ . '\\register_blocks', 10 );
 	add_action( 'block_categories_all', __NAMESPACE__ . '\\register_categories', 10, 2 );
 
-	add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\editor_assets' );
-	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\public_assets', 11 );
-
 	add_filter( 'load_script_translation_file', __NAMESPACE__ . '\\translations_location', 10, 3 );
 }
 
