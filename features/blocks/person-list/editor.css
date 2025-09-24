@@ -1,0 +1,50 @@
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list {
+  float: none !important;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list.is-selected {
+  background-color: #f7f7f7;
+  padding: 1rem;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .person-selector {
+  align-items: end;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 4fr 1fr;
+  max-width: 500px;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .person-selector__add {
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__reorder {
+  display: inline-block;
+  margin-right: 1rem;
+  min-width: 100px;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__reorder .button {
+  height: 30px;
+  min-height: auto;
+  padding: 4px;
+  width: 30px;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__reorder .button + .button {
+  margin-left: 0.5rem;
+}
