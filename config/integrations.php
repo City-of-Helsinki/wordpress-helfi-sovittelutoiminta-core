@@ -4,4 +4,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-return array();
+return array(
+	'wordpress-helsinki' => 'blocks',
+);
