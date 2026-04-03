@@ -4,7 +4,7 @@
 * Description: Site specific features
 * Requires at least: 6.8
 * Requires PHP: 8.2
-* Version: 3.1.0
+* Version: 3.2.0
 * Author: City of Helsinki
 * Author URI: https://www.hel.fi
 * License: MIT License
