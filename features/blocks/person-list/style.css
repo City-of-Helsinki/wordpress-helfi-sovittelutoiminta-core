@@ -2,6 +2,11 @@
   --item-spacing: var(--spacing-layout-m);
   --item-columns: 1;
   --item-align: normal;
+  --margin-top: var(--spacing-layout-s, 2rem);
+  --margin-bottom: var(--spacing-layout-s, 2rem);
+
+  margin-top: var(--margin-top);
+  margin-bottom: var(--margin-bottom);
 }
 
 .wp-block-person-list.align-left {
@@ -92,6 +97,11 @@ body.has-sidebar .wp-block-person-list.layout-horizontal.align-right {
 }
 
 @media screen and (min-width: 768px) {
+  .wp-block-person-list {
+    --margin-top: var(--spacing-layout-l, 4rem);
+    --margin-bottom: var(--spacing-layout-l, 4rem);
+  }
+
   .teaser.teaser--person {
     --margin-left: unset;
     --margin-right: unset;

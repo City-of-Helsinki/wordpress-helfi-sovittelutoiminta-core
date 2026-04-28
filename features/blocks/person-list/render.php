@@ -28,6 +28,7 @@ function create_html( array $attributes, WP_Query $query ): void {
 		);
 
 		$block_classes = array_filter( array(
+			'wp-block-helsinki',
 			'wp-block-person-list',
 			$attributes['className'] ?? '',
 			'layout-' . $layout,
