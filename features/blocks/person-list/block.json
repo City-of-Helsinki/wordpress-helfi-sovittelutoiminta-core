@@ -1,5 +1,5 @@
 {
-  "apiVersion": 2,
+  "apiVersion": 3,
   "icon": "admin-users",
   "title": "Person list",
   "description": "Show a list of persons...",
@@ -28,6 +28,6 @@
     }
   },
   "editorScript": "file:block.js",
-  "editorStyle": "file:editor.css",
+  "editorStyle": [ "dashicons", "file:editor.css" ],
   "style": "file:style.css"
 }
