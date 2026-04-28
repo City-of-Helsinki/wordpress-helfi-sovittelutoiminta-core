@@ -45,6 +45,10 @@
   width: 30px;
 }
 
+.editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__reorder .button .dashicons {
+  line-height: 1;
+}
+
 .editor-styles-wrapper .wp-block.wp-block-acf-person-list .people .people__reorder .button + .button {
   margin-left: 0.5rem;
 }
